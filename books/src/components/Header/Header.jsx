@@ -9,8 +9,8 @@ const Header = () => {
         <header className='header'>
             <Navbar />
             <div className='header-content flex flex-c text-center text-white'>
-                <h2 className='header-title text-capitalize'>find your book of choice.</h2><br />
-                <p className='header-text '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae sapiente quibusdam consequatur perspiciatis facere laboriosam non nesciunt at id repudiandae, modi iste? Eligendi, rerum!</p>
+                <h2 className='header-title text-capitalize'>Discover book of your choice.</h2><br />
+                <p className='header-text '>Search function, you can search for books based on title, author.  </p>
                 <SearchForm />
             </div>
         </header>

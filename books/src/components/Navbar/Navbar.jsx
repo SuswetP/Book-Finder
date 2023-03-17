@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='brand-and-toggler flex flex-sb'>
           <Link to = "/" className='navbar-brand flex'>
             <img src = {logoImg} alt = "site logo" />
-            <span className='text-uppercase '>bookhub</span>
+            <span className='text-uppercase '>Book Finder</span>
           </Link>
           <button type = "button" className='navbar-toggler-btn' onClick={handleNavbar}>
             <HiOutlineMenuAlt3 size = {35} style = {{
